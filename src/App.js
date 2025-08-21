@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./App.css"; // <-- make sure your CSS is saved here
-
+import "./App.css";
 function App() {
   const [countries, setCountries] = useState([]);
   const [loading, setLoading] = useState(true);
