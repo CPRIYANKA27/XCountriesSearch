@@ -19,6 +19,7 @@ function App() {
         setLoading(false);
       })
       .catch((err) => {
+        console.error("Error fetching countries:", err);
         setError(err.message);
         setLoading(false);
       });
